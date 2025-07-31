@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Ovo&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: "Outfit", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.gridTempletColumns{
+  grid-template-columns: repeat(auto-fit , minmax(200px , 1fr));
+}
+
+.font-Ovo{
+  font-family: "Ovo", serif;
+}
+
+.bg-contact-section {
+  background-image: url('/footer-bg-color.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 90% auto;
+}
+
+:root {
+  --font-primary: 'Outfit', sans-serif;
+  --font-secondary: 'Ovo', serif;
+  --lightHover: '#fcf4ff';
+  --darkHover: '#2a004a';
+  --darkTheme: '#11001f';
+}
+
+.lighthover {
+  background: '#fcf4ff';
+}
+
+.darkhover {
+  background: '#2a004a';
+}
+
+.darktheme {
+  background: '#11001f';
+}
