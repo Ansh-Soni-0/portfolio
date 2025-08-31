@@ -35,7 +35,6 @@ import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
-import postman from './postman.png';
 import insta from './insta.png'
 import github from './github.png'
 import linkedin from './linkedin.png'
@@ -61,7 +60,6 @@ export const assets = {
     watsapp,    
     leetcode,   
     insta,
-    postman,
     user_image,
     code_icon,
     code_icon_dark,
