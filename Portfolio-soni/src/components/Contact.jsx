@@ -20,6 +20,7 @@ const Contact = () => {
     });
 
     const data = await response.json();
+    // console.log(data)
 
     if (data.success) {
       setResult("Form Submitted Successfully");
@@ -70,7 +71,7 @@ const Contact = () => {
                 initial={{x: 50 , opacity: 0}}
                 whileInView={{x: 0 , opacity: 1}}
                 transition={{duration: 0.6 , delay: 1.2}} 
-                name='email' className='flex-1 p-3 outline-none border-[0.5px] border-gray-400 rounded-md bg-white dark:bg-[#2a004a]/30 dark:border-white/90' type="text" placeholder='Enter you email' required/>
+                name='email' className='flex-1 p-3 outline-none border-[0.5px] border-gray-400 rounded-md bg-white dark:bg-[#2a004a]/30 dark:border-white/90' type="email" placeholder='Enter you email' required/>
             </div>
 
             <motion.textarea 

@@ -103,10 +103,10 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Social media App',
+        title: 'Lynker',
         description: 'MERN stack project',
-        bgImage: '/work-1.png',
-        link:"https://github.com/Ansh-Soni-0/Social-Media-Application"
+        bgImage: '/work-1.avif',
+        link:"https://github.com/Ansh-Soni-0/Lynker.git"
     },
     {
         title: 'E-Commerce App',
@@ -119,11 +119,11 @@ export const workData = [
         description: 'Real time chatting',
         bgImage: '/chat2.webp',
     },
-    {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
-        bgImage: '/work-4.png',
-    },
+    // {
+    //     title: 'UI/UX designing',
+    //     description: 'UI/UX Design',
+    //     bgImage: '/work-4.png',
+    // },
 ]
 
 export const SkillsData = [
